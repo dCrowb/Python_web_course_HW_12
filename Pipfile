@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+alembic = "*"
+psycopg2-binary = "*"
+sqlalchemy = "*"
+fastapi = "*"
+uvicorn = {version = "*", extras = ["standard"]}
+pydantic = {version = "*", extras = ["email"]}
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
